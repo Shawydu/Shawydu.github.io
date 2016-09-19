@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 3
+title: flixter
+date: 2016-09-18
+img: [flixter.png, flixter1.png, flixter2.png]
+alt: image-alt
+labels: {JQuery, Ruby on Rails, AWS Cloud, Stripe API, VideoJS API}
+project-date: Nov 2015
+group: solo
+category: Web Development
+description: An online two sided (teach and learn) platform. Registered users are able to create course details, uploads videos for each lesson, they can reorder lessons and sections as well. User will pay for the premium course to get enrolled, and view videos streaming for further steps. <a href="http://flixter-shawydu.herokuapp.com/" target="_blank">Check it out</a> for a further learning experience.
+
+---
