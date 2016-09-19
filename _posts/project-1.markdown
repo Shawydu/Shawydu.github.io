@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 1
+title: Foodclub
+date: 2016-09-17
+img: [foodclub.png, foodclub1.png, foodclub2.png]
+alt: image-alt
+project-date: June 2015
+group: solo project
+category: Web Development
+labels: {Ruby on Rails, Bootstrap, Google Map API, PostgreSql, AWS Cloud}
+description: A Yelp clone Web application. Designed for food lovers as well as tourists who are looking for awesome places. Registered users are able to add favorite restaurants of places with information, address is displayed by google map. Comments and Photos can be added by users, which will be shown on homepage and place’s detail page. You may click <a href="http://foodclub-shawydu.herokuapp.com/" target="_blank">here</a> to get a feel on this.
+
+---

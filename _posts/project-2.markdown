@@ -1,0 +1,14 @@
+---
+layout: default
+title: endgame
+modal-id: 2
+date: 2016-07-17
+img: [chess.png, chess.png, chess1.png]
+alt: image-alt
+project-date: Feburary 2016
+group: 4 people
+category: Web Development
+labels: {Ruby on Rails, JQuery, Firebase API, PostgreSql, Agile, Bootstrap}
+description: A Chess game app developed for the chess fans. There is a huge logic stuff behind the scenes, all those are fullfilled by ruby on rails framework. Based on the API, 2 players can play the game in realtime. You can check it out by clicking <a href="http://endgamefp.herokuapp.com/" target="_blank">here</a>. But remember, bring your fellow together :)
+
+---
