@@ -10,17 +10,19 @@
             </div>
             <div class="row">
                 {% for post in site.posts %}
-                    <div class="col-sm-6 portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <h3 class="text-center">{{post.title}}</h3>
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-plus-circle fa-3x"></i>
+                    {% if post.categories contains 'portfolio' %}
+                        <div class="col-sm-6 portfolio-item">
+                            <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                                <h3 class="text-center">{{post.title}}</h3>
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-plus-circle fa-3x"></i>
+                                    </div>
                                 </div>
-                            </div>
-                            <img src="img/portfolio/{{ post.img[0] }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
-                    </div>
+                                <img src="img/portfolio/{{ post.img[0] }}" class="img-responsive" alt="{{ post.alt }}">
+                            </a>
+                        </div>
+                    {% endif %}
                 {% endfor %}
             </div>
         </div>

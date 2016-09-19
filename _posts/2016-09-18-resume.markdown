@@ -1,0 +1,4 @@
+---
+categories: [resume]
+url: <{{site.url}}/download/Xiaoyu Du--Resume.pdf>
+---
