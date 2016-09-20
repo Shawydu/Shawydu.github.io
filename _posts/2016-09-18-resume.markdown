@@ -1,4 +1,5 @@
 ---
 categories: [resume]
-url: <{{site.url}}/download/Xiaoyu Du--Resume.pdf>
+
 ---
+you can [get the PDF]({{site.url}}/download/Xiaoyu Du--Resume.pdf) directly

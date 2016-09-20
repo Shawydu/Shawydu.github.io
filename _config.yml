@@ -1,8 +1,8 @@
 # Site settings
-title: ShawyDu
+title: Shawy Du
 email: shawydu217@gmail.com
 url: https://shawydu.github.io
-description: "Hi there, my name is Shawy. I'm a web developer based on Ottawa, ON. With a lot of passion in building amazing websites from front-end to server-side. I'm pursuing to make websites and services simple, beautiful."
+description: "Hi there, my name is Shawy. I'm a web developer based on Ottawa, ON. I am passionate in building amazing websites from front-end to server-side. I'm pursuing to make websites and services simple, beautiful."
 skills: "Web Developer "
 quote: "I'm looking for a job and a cool place that I could develop myself."
 meta_author: Du Xiaoyu
@@ -17,7 +17,7 @@ bing_verify:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+# contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
@@ -27,7 +27,7 @@ disqus_shortname: myshortname
 color:
   primary: 18bc9c #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
+  secondary: 135A8E
   secondary-dark: 233140 #A2122F
 
 # Footer settings

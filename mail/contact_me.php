@@ -16,6 +16,7 @@ if ($email === FALSE) {
     echo 'Invalid email';
     exit(1);
 }
+$email = $_POST['shawydu217@gmail.com']
 $phone = $_POST['phone'];
 $message = $_POST['message'];
 

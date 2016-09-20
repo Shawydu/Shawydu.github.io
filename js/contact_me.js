@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://getsimpleform.com/messages?form_api_token=067448ed460d59824e96acb56811c512",
                 type: "POST",
                 data: {
                     name: name,
@@ -29,6 +29,7 @@ $(function() {
                 cache: false,
                 success: function() {
                     // Success message
+                    console.log(phone);
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
@@ -42,6 +43,7 @@ $(function() {
                 },
                 error: function() {
                     // Fail message
+                    console.log(phone);
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
@@ -62,7 +64,6 @@ $(function() {
         $(this).tab("show");
     });
 });
-
 
 /*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
